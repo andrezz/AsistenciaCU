@@ -15,15 +15,8 @@
     </head>
     <body class="sw-toggled">
         <%@include file="WEB-INF/jspf/menu.jspf" %>
+        
         <%@include file="WEB-INF/jspf/menu_b.jspf" %>
-        <%--Variables de inicio de sesión--%>
-    <input id="hidUsuarioId" type="hidden" />
-    <input id="hidUsuario" type="hidden"/>
-    <input id="hidUsuarioNombre" type="hidden"/>
-    <input id="hidPagina" type="hidden"/>
-    <input id="hidColor" type="hidden" value="rgb(69, 179, 16)" />
-    <input id="hidError" type="hidden"/>
-    <input id="hidPrivilegios" type="hidden" />
     <%@include file="WEB-INF/jspf/scripts.jspf" %>
     </body>
 </html>

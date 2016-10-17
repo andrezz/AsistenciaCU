@@ -40,7 +40,23 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div id="list_al_10"></div>
+                        <div id="list_al_10">
+                            <table class="table table-hover">
+                                <tbody>
+                                    <tr>
+                                        <td><img style="height: 100px;width: auto" src="http://www.iluminartefotografia.com/images/foto%20individual%20escolar009.jpg"></td>
+                                        <td>
+                                            <h4>Mariana Espiritu Sanchez</h4>
+                                            <div class="progress" style="height: 5px">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                </div>
+                                            </div>
+                                            <a class="btn btn-danger btn-login pull-right">Cancelar</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <div id="list_al_9"></div>
                         <div id="list_al_8"></div>
                         <div id="list_al_7"></div>
@@ -55,6 +71,6 @@
         </div>
         <%--<%@include file="../WEB-INF/jspf/menu_b.jspf" %>--%>
         <%@include file="../WEB-INF/jspf/scripts.jspf" %>
-        <script src="../Funciones/ControlAsistencia.js" type="text/javascript"></script>
+        <script src="/Funciones/ControlAsistencia.js" type="text/javascript"></script>
     </body>
 </html>
