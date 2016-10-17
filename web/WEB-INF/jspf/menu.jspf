@@ -77,7 +77,7 @@
                         <li><a href="${pageContext.request.contextPath}/Paginas/AdmHorario.jsp"><i class="md md-view-agenda"></i>Administrar Horario</a></li>
                         <li><a href="${pageContext.request.contextPath}/Paginas/PMensajes.jsp"><i class="md md-wrap-text"></i>Mensajes</a></li>
                         <li><a href="${pageContext.request.contextPath}/Paginas/BandejaAsistencia.jsp"><i class="md md-view-agenda"></i>Reporte de Asistencias</a></li>
-                        <li><a href="${pageContext.request.contextPath}/Paginas/JustificarAsistencia.aspjspx"><i class="md md-view-agenda"></i>Justificar Asistencias</a></li>
+                        <li><a href="${pageContext.request.contextPath}/Paginas/JustificarAsistencia.jsp"><i class="md md-view-agenda"></i>Justificar Asistencias</a></li>
                     </ul>
                 </div>
             </div>
