@@ -5,7 +5,7 @@
     $("#lblNombreUsuario").text(strUsuario);
     //var intRolId = $("#hidRolId").val();
     var Cantidad = $("#hidCountRol").val();
-    var mstr_Url = "../Paginas/Login.aspx";
+    var mstr_Url = "../Paginas/Login.jsp";
     var mstr_Error = $("#hidError").val();
 
     $("#lblSalir1").click(function () {
