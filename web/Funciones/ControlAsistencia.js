@@ -1,5 +1,7 @@
 ﻿
-        $(document).ready(function (e) {
+        var id1;
+var id2;
+$(document).ready(function (e) {
     var mstr_Error = $("#hidError").val();
     var mstr_Color = $("#hidColor").val();
     var mstr_Url = $("#hidPagina").val();
@@ -30,8 +32,8 @@
     lista_alumnos.push(new alumno(10, "Fernando Toscano Palacios", "http://2.bp.blogspot.com/_-KCABCWKl_8/Sf9jelp-5lI/AAAAAAAAAZ0/nbsJAKbhx9Q/s400/1.JPG"));
     print_array(lista_alumnos);
     insert_alumno();
-    setInterval(insert_alumno, 3000);
-    setInterval(showTime, 1000);
+    id1 = setInterval(insert_alumno, 3000);
+    id2 = setInterval(showTime, 1000);
     function insert_alumno() {
         print_array(lista_alumnos);
         for (var i = 0; i < lista_alumnos.length; i++) {
@@ -71,7 +73,7 @@
     function constructorLg(nombres, foto) {
         var t = '';
         t += '<center>';
-        t += '<img class="img-rounded" src="' + foto + '">';
+        t += '<img width="300px" src="' + foto + '">';
         t += '</center><br>';
         t += '<center><h4>' + nombres + '</h4></center>';
         return t;
@@ -79,8 +81,16 @@
 
     function constructorSm(nombres, foto) {
         var t = '';
-        t += '<img style="height: 100px;width: auto" src="'+foto+'">';
-        t += '<span>'+nombres+'</span>';
+        t += '<div class="row">';
+        t += '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">';
+        t += '<img style="height: 100px;width: auto;max-width: 100px" ';
+        t += 'src="'+foto+'">';
+        t += '</div>';
+        t += '<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">';
+        t += '<h4>'+nombres+'</h4>';
+        t += '<a class="btn btn-warning btn-login pull-right">Cancelar</a>';
+        t += '</div>';
+        t += '</div>';
         return t;
     }
 
