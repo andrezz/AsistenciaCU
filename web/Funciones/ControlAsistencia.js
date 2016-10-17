@@ -1,5 +1,5 @@
 ﻿
-$(document).ready(function (e) {
+        $(document).ready(function (e) {
     var mstr_Error = $("#hidError").val();
     var mstr_Color = $("#hidColor").val();
     var mstr_Url = $("#hidPagina").val();
@@ -35,7 +35,7 @@ $(document).ready(function (e) {
     function insert_alumno() {
         print_array(lista_alumnos);
         for (var i = 0; i < lista_alumnos.length; i++) {
-            renderImage(i+1, lista_alumnos[i].nombres, lista_alumnos[i].foto);
+            renderImage(i + 1, lista_alumnos[i].nombres, lista_alumnos[i].foto);
         }
         lista_alumnos.splice(0, 0, lista_alumnos.pop());
     }
@@ -43,25 +43,25 @@ $(document).ready(function (e) {
     function showTime() {
         var currentdate = new Date();
         var datetime = "Fecha y Hora: " + currentdate.getDate() + "/"
-                        + (currentdate.getMonth() + 1) + "/"
-                        + currentdate.getFullYear() + " "
-                        + currentdate.getHours() + ":"
-                        + currentdate.getMinutes() + ":"
-                        + currentdate.getSeconds();
+                + (currentdate.getMonth() + 1) + "/"
+                + currentdate.getFullYear() + " "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
+                + currentdate.getSeconds();
         $('#timer').text(datetime);
     }
 
     function print_array(array) {
         for (var i = 0; i < array.length; i++) {
-            console.log(i+"--"+array[i].id);
+            console.log(i + "--" + array[i].id);
         }
     }
 
     function renderImage(index, nombres, foto) {
         $('#list_al_' + index).hide();
         $('#list_al_' + index).empty();
-        if (index<5) {
-            $('#list_al_' + index).append(constructorLg(nombres,foto));
+        if (index < 2) {
+            $('#list_al_' + index).append(constructorLg(nombres, foto));
         } else {
             $('#list_al_' + index).append(constructorSm(nombres, foto));
         }
@@ -69,18 +69,18 @@ $(document).ready(function (e) {
     }
 
     function constructorLg(nombres, foto) {
-        var t = '<a href="#" class="btn">';
-        t += '<img src="' + foto + '" width="100%" height="300" />';
-        t += '</a>';
-        t += '<h4 class="text-center">' + nombres + '</h4>';
+        var t = '';
+        t += '<center>';
+        t += '<img class="img-rounded" src="' + foto + '">';
+        t += '</center><br>';
+        t += '<center><h4>' + nombres + '</h4></center>';
         return t;
     }
 
     function constructorSm(nombres, foto) {
-        var t = '<a href="#" class="thumbnail">';
-        t+='<img src="'+foto+'" width="100%" style="max-width:180px;" />';
-        t+='</a>';
-        t += '<h6 class="text-center">'+nombres+'</h6>';
+        var t = '';
+        t += '<img style="height: 100px;width: auto" src="'+foto+'">';
+        t += '<span>'+nombres+'</span>';
         return t;
     }
 

@@ -1,0 +1,86 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<header id="header">
+        <ul class="header-inner">
+            <li id="menu-trigger" data-trigger="#sidebar">
+                <div class="line-wrap">
+                    <div class="line top"></div>
+                    <div class="line center"></div>
+                    <div class="line bottom"></div>
+                </div>
+            </li>
+
+            <li class="logo hidden-xs">
+                <a href="#">SISTEMA DE CONTROL DE ASISTENCIA</a>
+            </li>
+
+            <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden" />
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+
+                    <li style="top: -12px; text-transform: uppercase; color: #fff; padding: 0px 5px;">
+                        <label id="lblNombreUsuario">Area</label>
+                    </li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="tm-settings" href="#"></a>
+                        <ul class="dropdown-menu dm-icon pull-right">
+                            <li id="">
+                                <a id="lblSalir2"><i class="md md-history"></i>
+                                    <label>Salir</label></a>
+
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Top Search Content -->
+        <div id="top-search-wrap">
+            <input type="text" />
+            <i id="top-search-close">×</i>
+        </div>
+    </header>
+
+    <section id="main">
+        <aside id="sidebar">
+            <div class="sidebar-inner">
+                <div class="si-inner">
+                    <div class="profile-menu">
+                        <a href="#">
+                            <div class="profile-pic">
+                                <img src="${pageContext.request.contextPath}/Images/logo_cunion.png" alt="" style="background: #fff" />
+                            </div>
+
+                            <div class="profile-info">
+                                <label id="lblUsuario">Usuario</label>
+                                <i class="md md-arrow-drop-down"></i>
+                            </div>
+                        </a>
+
+                        <ul class="main-menu">
+                            <li>
+                                <a id="lblSalir1"><i class="md md-history"></i>
+                                    <label>Salir</label></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="main-menu" id="MenuPrincipal">
+                        <li><a href="${pageContext.request.contextPath}/Paginas/Prueba.jsp"><i class="md md-view-agenda"></i>Prueba</a></li>
+                        <li><a href="${pageContext.request.contextPath}/Paginas/Prueba2.jsp"><i class="md md-view-carousel"></i>Prueba2</a></li>
+                        <li><a href="${pageContext.request.contextPath}/Paginas/ControlAsistencia.jsp"><i class="md md-view-agenda"></i>Control Asistencia</a></li>
+                        <li><a href="${pageContext.request.contextPath}/Paginas/AdmHorario.jsp"><i class="md md-view-agenda"></i>Administrar Horario</a></li>
+                        <li><a href="${pageContext.request.contextPath}/Paginas/PMensajes.jsp"><i class="md md-wrap-text"></i>Mensajes</a></li>
+                        <li><a href="${pageContext.request.contextPath}/Paginas/BandejaAsistencia.jsp"><i class="md md-view-agenda"></i>Reporte de Asistencias</a></li>
+                        <li><a href="${pageContext.request.contextPath}/Paginas/JustificarAsistencia.aspjspx"><i class="md md-view-agenda"></i>Justificar Asistencias</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <section id="content">
+            <div class="container>
