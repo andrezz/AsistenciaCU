@@ -1,0 +1,14 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page import="java.util.Date"%>
+<%@ page pageEncoding="UTF-8" %>
+</div>
+</section>
+</section>
+<footer>
+    <div id="footer">
+        <label style="padding: 0px 25px 0px 0px; float: right">
+            &#169; Copyright <%=new Date()%>  CATA |  by DESS 
+        </label>
+
+    </div>
+</footer>
