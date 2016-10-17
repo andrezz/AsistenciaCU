@@ -1,0 +1,74 @@
+﻿body {
+    font-family: 'Segoe UI';
+}
+.input-tabla {
+    /*width: 80%;*/
+    height: 27px;
+    border: 1px solid #F4F4F4;
+    text-align:center;
+    padding-right:5px;
+}
+.div-tabla{
+    text-align:center;
+}
+
+.buscar {
+    border: 0;
+    height: 28px;
+    padding: 0 10px 0 40px;
+    font-size: 13px;
+    width: 100%;
+    border-radius: 8px;
+    color: rgb(27, 26, 26);
+    background-color:rgba(38, 166, 154, 0.83);
+    background-image: url("../Images/icons/search.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-bottom:0px;
+}
+
+.card .card-header h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+
+.bgm-cyan{
+    background-color:#26A69A !important;
+}
+
+.checkbox-tabla {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    vertical-align:middle;
+}
+
+.radio-tabla {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    vertical-align:middle;
+}
+/*Placeholder del buscador*/
+.buscar :-ms-input-placeholder {
+  color: #fff;
+}
+.buscar::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.table > thead > tr > th, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > tbody > tr > td, 
+.table > tfoot > tr > td {
+vertical-align:middle;
+white-space: nowrap;
+}
+
+
+
+
+
+
+

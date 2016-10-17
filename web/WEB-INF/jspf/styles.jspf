@@ -1,0 +1,13 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<link href="${pageContext.request.contextPath}/content/material-design-iconic-font.min.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/sweet-alert.min.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/toastr.min.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/app.min.1.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/app.min.2.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/dataTables.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/style.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/please-wait.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
