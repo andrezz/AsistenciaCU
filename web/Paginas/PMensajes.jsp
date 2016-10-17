@@ -14,7 +14,6 @@
     </head>
     <body>
         <%@include file="../WEB-INF/jspf/menu.jspf" %>
-        <%--<%@include file= "../WEB-INF/jspf/menu_b.jspf"%>--%>
         <div class="card" id="divLista">
             <div class="card-header">
                 <h2>Personalizar Mensajes</h2>
@@ -95,8 +94,8 @@
 
 
         </div>
-
-        
+        <%@include file= "../WEB-INF/jspf/menu_b.jspf"%>
+                        
         
         <%@include file="../WEB-INF/jspf/scripts.jspf" %>
         <script src="../Funciones/ControlAsistencia.js" type="text/javascript"></script>
