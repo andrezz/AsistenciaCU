@@ -18,8 +18,6 @@
             <div class="card-header">
                 <h2>Personalizar Mensajes</h2>
                 <br />
-
-                <button class="btn bgm-cyan btn-float waves-effect waves-button waves-float" id="btnSalir" data-toggle="modal" data-target="#divNewPrueba"><i class="md md-add"></i></button>
             </div>
             <br />
             <div class="card-body card-padding">
@@ -28,20 +26,27 @@
                         <table class="table table-striped table-condensed2" id="tblPrueba">
                             <thead>
                                 <tr>
-                                    <th>Tipo</th>
-                                    <th>Mensaje</th>
-                                    <th>Acciones</th>
+                                <th>Mensaje</th>
+                                <th>Fecha/Hora</th>
+                                <th>Acciones</th>
 
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td style="text-align: center;">Mensaje de entrada puntual</td>
-                                    <td style="text-align: center;"> <div class="fg-line" id="divPuntual">
-                                            <input type="text" class="form-control" id="txtPuntual" maxlength="100" />
-                                        </div></td>
+                                    <td style="text-align: center;"> <div class="fg-line" id="divP">
+                                            <input type="text" class="form-control" id="txtP" maxlength="100" />
+                                        </div> 
+                            </td>
                                     <td style="text-align: center;">
-                                        <button class="btn btn-icon command-save" id="btn1" title="Guardar">
+                                        <div class="row">
+                                            <div class="form-control">
+                                                <span><i class="md md-timer"></i><span id="timer">7:16:02 a.m.</span></span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <button class="btn btn-icon-save" id="btn1" title="Guardar">
                                             <span class="md md-save"></span>
                                         </button>
                                     </td>

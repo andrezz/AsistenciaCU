@@ -24,7 +24,7 @@
                     </div>
                 </li>-->
                 <li class="logo hidden-xs">
-                    <a href="../index.jsp"><--</a>
+                    <a href="../index.jsp"></a>
                 </li>
                 <li>
                     <span style="font-size: 24px"><i class="md md-timer c-white"></i><span id="timer" class="c-white">7:16:02 a.m.</span></span>
