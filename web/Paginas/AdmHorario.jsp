@@ -173,7 +173,7 @@
                                 </tr>
                                 <tr>
                                     <td class="mdl-data-table__cell--non-numeric">2</td>
-                                    <td >Entrada</td>
+                                    <td >Salida</td>
                                     <td><div class="dtp-container dropdown fg-line">
                                             <input type='text' class="form-control time-picker" data-toggle="dropdown" placeholder="Hora Inicio..."/>
                                         </div><br>
