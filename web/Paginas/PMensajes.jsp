@@ -32,7 +32,7 @@
                 padding: 0px;
             }
             .div-tag{
-                height: 70px;
+                height: 50px;
                 padding: 0px;
                 display: inline-block;
             }
@@ -50,19 +50,16 @@
                         <table class="table table-striped table-condensed2" id="tblPrueba">
                             <thead>
                                 <tr>
+                                    <th>Tipo</th>
                                     <th>Mensaje</th>
-                                    <th>Fecha/Hora</th>
                                     <th>Acciones</th>
 
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td style="text-align: center;"> 
-                                        <h6>Example heading <span class="tag tag-pill tag-danger">Nombre</span></h6>
-
-                                    </td>
-                                    <td style="text-align: center;">
+                                    <td style="text-align: center;">Mensaje de entrada Puntual</td>
+                                   <td style="text-align: center;">
                                         <div class="form-control div-tag" id="asd">
                                             <input type="text" id="inputTag">
                                         </div>
@@ -77,11 +74,13 @@
                             <tbody>
                                 <tr>
                                     <td style="text-align: center;">Mensaje de entrada Tarde</td>
-                                    <td style="text-align: center;"> <div class="fg-line" id="divTarde">
-                                            <input type="text" class="form-control" id="txtTarde" maxlength="100" />
-                                        </div></td>
                                     <td style="text-align: center;">
-                                        <button class="btn btn-icon command-save" id="btn2" title="Guardar">
+                                        <div class="form-control div-tag" id="asd">
+                                            <input type="text" id="inputTag">
+                                        </div>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <button class="btn btn-icon-save" id="btn2" title="Guardar">
                                             <span class="md md-save"></span>
                                         </button>
                                     </td>
@@ -90,11 +89,13 @@
                             <tbody>
                                 <tr>
                                     <td style="text-align: center;">Mensaje de salida</td>
-                                    <td style="text-align: center;"> <div class="fg-line" id="divSalida">
-                                            <input type="text" class="form-control" id="txtSalida" maxlength="100" />
-                                        </div></td>
                                     <td style="text-align: center;">
-                                        <button class="btn btn-icon command-save" id="btn3" title="Guardar">
+                                        <div class="form-control div-tag" id="asd">
+                                            <input type="text" id="inputTag">
+                                        </div>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <button class="btn btn-icon-save" id="btn3" title="Guardar">
                                             <span class="md md-save"></span>
                                         </button>
                                     </td>
@@ -103,11 +104,13 @@
                             <tbody>
                                 <tr>
                                     <td style="text-align: center;">Mensaje de salida de emergencia</td>
-                                    <td style="text-align: center;"> <div class="fg-line" id="divEmergencia">
-                                            <input type="text" class="form-control" id="txEmergencia" maxlength="100" />
-                                        </div></td>
                                     <td style="text-align: center;">
-                                        <button class="btn btn-icon command-save" id="btn4" title="Guardar">
+                                        <div class="form-control div-tag" id="asd">
+                                            <input type="text" id="inputTag">
+                                        </div>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <button class="btn btn-icon-save" id="btn4" title="Guardar">
                                             <span class="md md-save"></span>
                                         </button>
                                     </td>
@@ -121,6 +124,7 @@
 
 
         </div>
+        Leyenda: 
         <%@include file= "../WEB-INF/jspf/menu_b.jspf"%>
 
 
