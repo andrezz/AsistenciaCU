@@ -22,7 +22,7 @@
                 float: left;
                 margin: 0px;
                 border: none;
-                padding: 0px 8px 0px 0px;
+                padding: 0px 0px 8px 0px;
             }
             .buttonTag{
                 float: left;
@@ -121,10 +121,16 @@
 
                 </div>
             </div>
-
-
         </div>
-        Leyenda: 
+        <div class="panel panel-success">
+            <div class="panel-heading">Leyenda del mensaje</div>
+            <ul class="list-group">
+                <li class="list-group-item">Apoderado.- Padre y/o Tutor del estudiante</li>
+                <li class="list-group-item">Alumno.- Estudiante en el colegio</li>
+                <li class="list-group-item">Hora.- Tiempo en envío de mensajes</li>
+                <li class="list-group-item">Fecha.- Tiempo de envío de mensajes</li>
+            </ul>
+        </div>
         <%@include file= "../WEB-INF/jspf/menu_b.jspf"%>
 
 
