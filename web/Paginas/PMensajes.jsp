@@ -41,10 +41,8 @@
         <div class="card" id="divLista">
             <div class="card-header">
                 <h2>Personalizar Mensajes</h2>
-                <br />
-            </div>
-            <br />
-            <div class="card-body card-padding">
+               </div>
+             <div class="card-body card-padding">
                 <div class="row">
                     <div class="table-responsive">
                         <table class="table table-striped table-condensed2" id="tblPrueba">
